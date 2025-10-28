@@ -21,7 +21,6 @@ SRC_URI:append = " \
 # include/mtd/* we cannot build in parallel with mtd-utils
 DEPENDS += "mtd-utils"
 
-RDEPENDS:${PN} += "odhcp6c"
 
 RRECOMMENDS:${PN} += "${PN}-inetd"
 RRECOMMENDS:${PN} += "${PN}-telnetd"
